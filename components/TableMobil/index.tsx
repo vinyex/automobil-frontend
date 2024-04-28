@@ -63,10 +63,6 @@ export default function TableMobil(props: TableMobil) {
       });
   }, []);
 
-  if (items.length < 1) {
-    return <></>;
-  }
-
   return (
     <div className="flex flex-col gap-4">
       <form onSubmit={async (e) => {
